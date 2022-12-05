@@ -15,7 +15,7 @@ public class EmployeeService : IEmployeeService
             request.Mobile,
             request.Email,
             request.Address,
-            request.Status,
+            true,
             request.DepartmentId,
             request.Birthdate,
             DateTime.UtcNow,
